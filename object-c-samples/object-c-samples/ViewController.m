@@ -14,8 +14,14 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    ImageService* imageService = [[ImageService alloc] init];
+    imageService.delegate = self;
+    [imageService fetchImage];
 }
 
+-(void) didFetchImage:(NSURL *)url {
+    NSLog(@"=====begin to fetch image for network");
+}
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];

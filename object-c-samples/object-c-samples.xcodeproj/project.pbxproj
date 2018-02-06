@@ -12,6 +12,7 @@
 		14F253E6202941CD00831827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F253E5202941CD00831827 /* Assets.xcassets */; };
 		14F253E9202941CD00831827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F253E7202941CD00831827 /* Main.storyboard */; };
 		14F253EC202941CD00831827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253EB202941CD00831827 /* main.m */; };
+		14F253FD20294F0C00831827 /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253FC20294F0C00831827 /* ImageService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		14F253EA202941CD00831827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F253EB202941CD00831827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14F253ED202941CD00831827 /* object_c_samples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = object_c_samples.entitlements; sourceTree = "<group>"; };
+		14F253FB20294DC800831827 /* ImageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageService.h; sourceTree = "<group>"; };
+		14F253FC20294F0C00831827 /* ImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				14F253EA202941CD00831827 /* Info.plist */,
 				14F253EB202941CD00831827 /* main.m */,
 				14F253ED202941CD00831827 /* object_c_samples.entitlements */,
+				14F253FB20294DC800831827 /* ImageService.h */,
+				14F253FC20294F0C00831827 /* ImageService.m */,
 			);
 			path = "object-c-samples";
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F253E4202941CD00831827 /* ViewController.m in Sources */,
+				14F253FD20294F0C00831827 /* ImageService.m in Sources */,
 				14F253EC202941CD00831827 /* main.m in Sources */,
 				14F253E1202941CD00831827 /* AppDelegate.m in Sources */,
 			);

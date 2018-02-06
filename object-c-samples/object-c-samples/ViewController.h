@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ImageService.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <ImageServiceDelegate>
 
 
 @end
