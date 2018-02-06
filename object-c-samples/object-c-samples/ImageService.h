@@ -10,6 +10,7 @@
 #define ImageService_h
 
 @protocol ImageServiceDelegate<NSObject>
+@required
 -(void)didFetchImage:(NSURL *)url;
 @end
 

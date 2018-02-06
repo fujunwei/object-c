@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Block.h"
 
 @implementation ViewController
 
@@ -17,6 +18,12 @@
     ImageService* imageService = [[ImageService alloc] init];
     imageService.delegate = self;
     [imageService fetchImage];
+    
+    // Block Testing
+    BlockSamples* block = [[BlockSamples alloc] init];
+    [block callbackAsParameter:^(NSString* name) {
+        NSLog(name);
+    }];
 }
 
 -(void) didFetchImage:(NSURL *)url {

@@ -13,6 +13,7 @@
 		14F253E9202941CD00831827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F253E7202941CD00831827 /* Main.storyboard */; };
 		14F253EC202941CD00831827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253EB202941CD00831827 /* main.m */; };
 		14F253FD20294F0C00831827 /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253FC20294F0C00831827 /* ImageService.m */; };
+		14F253FF2029829500831827 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253FE2029829500831827 /* Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		14F253ED202941CD00831827 /* object_c_samples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = object_c_samples.entitlements; sourceTree = "<group>"; };
 		14F253FB20294DC800831827 /* ImageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageService.h; sourceTree = "<group>"; };
 		14F253FC20294F0C00831827 /* ImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageService.m; sourceTree = "<group>"; };
+		14F253FE2029829500831827 /* Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		14F25400202982DE00831827 /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				14F253E0202941CD00831827 /* AppDelegate.m */,
 				14F253E2202941CD00831827 /* ViewController.h */,
 				14F253E3202941CD00831827 /* ViewController.m */,
+				14F253FE2029829500831827 /* Block.m */,
+				14F25400202982DE00831827 /* Block.h */,
 				14F253E5202941CD00831827 /* Assets.xcassets */,
 				14F253E7202941CD00831827 /* Main.storyboard */,
 				14F253EA202941CD00831827 /* Info.plist */,
@@ -148,6 +153,7 @@
 				14F253E4202941CD00831827 /* ViewController.m in Sources */,
 				14F253FD20294F0C00831827 /* ImageService.m in Sources */,
 				14F253EC202941CD00831827 /* main.m in Sources */,
+				14F253FF2029829500831827 /* Block.m in Sources */,
 				14F253E1202941CD00831827 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
