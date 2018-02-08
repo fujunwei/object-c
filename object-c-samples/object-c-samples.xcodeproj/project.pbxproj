@@ -14,6 +14,7 @@
 		14F253EC202941CD00831827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253EB202941CD00831827 /* main.m */; };
 		14F253FD20294F0C00831827 /* ImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253FC20294F0C00831827 /* ImageService.m */; };
 		14F253FF2029829500831827 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F253FE2029829500831827 /* Block.m */; };
+		14F25403202BDF4000831827 /* dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F25402202BDF4000831827 /* dynamic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		14F253FC20294F0C00831827 /* ImageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageService.m; sourceTree = "<group>"; };
 		14F253FE2029829500831827 /* Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
 		14F25400202982DE00831827 /* Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		14F25401202BDF0700831827 /* dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic.h; sourceTree = "<group>"; };
+		14F25402202BDF4000831827 /* dynamic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dynamic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				14F253ED202941CD00831827 /* object_c_samples.entitlements */,
 				14F253FB20294DC800831827 /* ImageService.h */,
 				14F253FC20294F0C00831827 /* ImageService.m */,
+				14F25401202BDF0700831827 /* dynamic.h */,
+				14F25402202BDF4000831827 /* dynamic.m */,
 			);
 			path = "object-c-samples";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14F253E4202941CD00831827 /* ViewController.m in Sources */,
+				14F25403202BDF4000831827 /* dynamic.m in Sources */,
 				14F253FD20294F0C00831827 /* ImageService.m in Sources */,
 				14F253EC202941CD00831827 /* main.m in Sources */,
 				14F253FF2029829500831827 /* Block.m in Sources */,

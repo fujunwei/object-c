@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Block.h"
+#import "dynamic.h"
 
 @implementation ViewController
 
@@ -24,6 +25,13 @@
     [block callbackAsParameter:^(NSString* name) {
         NSLog(name);
     }];
+    
+    // Dynamic Testing
+    dynamic* dy1 = [[dynamic alloc] init];
+    id dy2 = [[NSObject alloc] init];
+    [dy1 func];
+    [dy2 func];
+    NSLog(@"====end viewDidLoad");
 }
 
 -(void) didFetchImage:(NSURL *)url {
